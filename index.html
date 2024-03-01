@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="./style.css" />
     <!-- Tailwind CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
@@ -18,10 +16,17 @@
       src="https://kit.fontawesome.com/08e38396a4.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- Header Part -->
-    <header class="xl:pt-5">
+    <header class="xl:pt-5 z-50">
       <div
         class="navbar flex justify-between lg:flex-row flex-row-reverse max-w-screen-xl mx-auto"
       >
@@ -127,6 +132,61 @@
     </header>
     <!-- Main Part -->
     <main class="max-w-screen-xl mb-14 mx-auto px-2">
+      <!-- Banner Section -->
+      <section class="flex justify-between">
+        <div class="lg:w-1/2 z-10 bg-[#261661]">
+          <h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+            consequuntur molestiae laudantium recusandae hic explicabo ipsam
+            nihil reiciendis cupiditate! Odio molestiae fugiat excepturi
+            voluptatem accusamus accusantium praesentium fuga! Ut iure, illum
+            excepturi tenetur minus harum architecto facilis eum fugit
+            dignissimos impedit! Minima tempora ex labore similique quod aut
+            earum distinctio rerum adipisci laboriosam omnis magni cum non vel
+            saepe vero, quibusdam sint repellendus commodi aliquid. Officia at
+            amet quisquam eos delectus maiores mollitia nostrum, obcaecati alias
+            ratione animi sit, ullam quidem maxime doloribus dolores veniam.
+            Atque sapiente a deleniti laboriosam minima harum dolorem, nihil
+            minus asperiores dolores provident amet? Nostrum, quisquam vel
+            voluptate esse inventore quae aperiam, deserunt laboriosam accusamus
+            quaerat eum sequi fugit architecto voluptates atque aliquid
+            consequatur pariatur. Fugit illo beatae, provident officia fuga vero
+            veritatis id distinctio.
+          </h2>
+        </div>
+        <div class="lg:w-1/2">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="w-full"
+                  src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="w-full"
+                  src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="w-full"
+                  src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="w-full"
+                  src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                />
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
       <!-- Projects -->
       <section class="my-14">
         <div class="text-center">
@@ -478,5 +538,7 @@
         </p>
       </aside>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
