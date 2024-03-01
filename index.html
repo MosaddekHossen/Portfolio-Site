@@ -13,6 +13,11 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/08e38396a4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header Part -->
@@ -20,7 +25,9 @@
       <div
         class="navbar flex justify-between lg:flex-row flex-row-reverse max-w-screen-xl mx-auto"
       >
-        <a href="./index.html" class="text-2xl font-bold pr-5">Mosaddek</a>
+        <a href="./index.html" class="text-3xl font-extrabold pr-5"
+          >MosaddekHossen</a
+        >
         <div>
           <div class="dropdown">
             <div
@@ -50,31 +57,31 @@
               <li>
                 <a
                   href="#"
-                  class="text-[18px] bg-[#3e6bcd] font-medium text-white"
+                  class="text-[18px] bg-[#3e6bcd] w-[150px] font-medium text-white"
                   >Home</a
                 >
               </li>
               <li>
                 <a
                   href="./about.html"
-                  class="text-[18px] font-medium text-white"
+                  class="text-[18px] font-medium text-white w-[150px]"
                   >About</a
                 >
               </li>
               <li>
-                <a href="#" class="text-[18px] font-medium text-white"
+                <a href="#" class="text-[18px] font-medium text-white w-[150px]"
                   >Services</a
                 >
               </li>
               <li>
-                <a href="#" class="text-[18px] font-medium text-white"
+                <a href="#" class="text-[18px] font-medium text-white w-[150px]"
                   >Projects</a
                 >
               </li>
               <li>
                 <a
                   href="./about.html"
-                  class="text-[18px] font-medium text-white"
+                  class="text-[18px] font-medium text-white w-[150px]"
                   >Contact</a
                 >
               </li>
@@ -119,43 +126,249 @@
       </div>
     </header>
     <!-- Main Part -->
-    <main class="max-w-screen-xl mx-auto px-2">
-      <!-- Contact section -->
-      <section>
-        <div class="py-8 lg:py-2 px-4 mx-auto max-w-screen-md">
-          <h2
-            class="mb-5 md:text-[76px] serif text-5xl tracking-tight font-bold text-center text-white"
-          >
-            Contact Us
-          </h2>
-          <p
-            class="mb-8 lg:mb-2 font-semibold md:text-[24px] text-center text-[18px]"
-          >
-            Got a technical issue? Want to send feedback about a beta feature?
-            Need details about our Business plan? Let us know.
-          </p>
+    <main class="max-w-screen-xl mb-14 mx-auto px-2">
+      <!-- Projects -->
+      <section class="my-14">
+        <div class="text-center">
+          <h2 class="md:text-5xl text-3xl mb-12 mt-3 font-bold">My Projects</h2>
         </div>
         <div
-          class="flex items-center flex-col md:flex-row h-full md:h-[700px] rounded-lg"
+          class="grid grid-cols-1 justify-around gap-5 md:grid-cols-3 px-7 lg:px-0"
         >
-          <form action="#" class="space-y-8 p-10 md:w-1/2 bg-[#261661]">
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="h-60 object-cover"
+                src="https://i.ibb.co/1Mn367w/Screenshot-3.png"
+                alt="Car"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://brand-shop-client-28f8e.web.app/"
+                  >Live Site</a
+                >
+              </h2>
+              <h3 class="text-[16px] font-bold">
+                Client Side Github :
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/MosaddekHossen/car-brand-client"
+                  >Code</a
+                >
+              </h3>
+              <h3 class="text-[16px] font-bold">
+                Server Side Github :
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/MosaddekHossen/car-brand-server"
+                  >Code</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="h-60 object-cover"
+                src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                alt="Education"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://123sweet-copy.surge.sh/"
+                  >Live Site</a
+                >
+              </h2>
+              <h3 class="text-[16px] font-bold">
+                Client Side Github :
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/MosaddekHossen/CyberHub-client"
+                  >Code</a
+                >
+              </h3>
+              <h3 class="text-[16px] font-bold">
+                Server Side Github :
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/MosaddekHossen/CyberHub-server"
+                  >Code</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="h-60 object-cover"
+                src="https://i.ibb.co/6vbmQ9d/Screenshot-2.png"
+                alt="Food"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="http://utopian-goat.surge.shurplussaver.surge.sh/"
+                  >Live Site</a
+                >
+              </h2>
+              <h3 class="text-[16px] font-bold">
+                Client Side Github :
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/MosaddekHossen/Food-community-client"
+                  >Code</a
+                >
+              </h3>
+              <h3 class="text-[16px] font-bold">
+                Server Side Github :
+                <a
+                  class="underline text-sky-500"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/MosaddekHossen/Food-community-server"
+                  >Code</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About section -->
+      <section class="lg:mb-20 mb-10">
+        <div class="text-center">
+          <h2 class="md:text-5xl text-3xl mb-10 mt-2 font-bold">Education</h2>
+        </div>
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-10">
+          <div class="bg-base-200">
+            <div class="p-10 space-y-10">
+              <div>
+                <div class="text-2xl">
+                  <FaBook />
+                </div>
+                <h4 class="text-[16px] font-bold">2019-2020</h4>
+                <h2 class="md:text-3xl text-2xl font-bold">
+                  HSC : Higher Secondary Certificate
+                </h2>
+              </div>
+              <div>
+                <div class="text-2xl">
+                  <FaBookOpen />
+                </div>
+                <h4 class="text-[16px] font-bold">2017-2018</h4>
+                <h2 class="md:text-3xl text-2xl font-bold">
+                  SSC : Secondary School Certificate
+                </h2>
+              </div>
+              <div>
+                <div class="text-2xl">
+                  <IoIosBook />
+                </div>
+                <h4 class="text-[16px] font-bold">2016</h4>
+                <h2 class="md:text-3xl text-2xl font-bold">
+                  JSC : Junior School Certificate
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="bg-base-200">
+            <img
+              src="https://img.freepik.com/free-vector/abstract-low-polygonal-graduation-cap-planet-earth-globe-model-map-e-learning-concept_127544-1106.jpg?t=st=1709319800~exp=1709323400~hmac=96543983112f57eac7e9959687aa4a1e0dcf49b3c30c22c6c1995c264ef8896f&w=996"
+              alt="Education"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Contact section -->
+      <section>
+        <div class="mb-16">
+          <div class="text-center">
+            <h2 class="md:text-5xl text-3xl mb-12 mt-16 font-bold uppercase">
+              Contact
+            </h2>
+          </div>
+          <div
+            class="grid grid-cols-1 justify-around gap-5 md:grid-cols-2 lg:grid-cols-3"
+          >
+            <div class="card bg-base-300 shadow-2xl">
+              <div class="p-10 text-center space-y-2">
+                <div class="flex justify-center text-5xl">
+                  <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <h2 class="text-2xl font-bold">Mosaddek Hossen</h2>
+                <h3 class="text-[16px] font-bold">Web Developer ( React )</h3>
+              </div>
+            </div>
+            <div class="card bg-base-300 shadow-2xl">
+              <div class="p-10 text-center space-y-2">
+                <div class="flex justify-center text-5xl">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <h2 class="text-2xl font-bold">Phone</h2>
+                <h3 class="text-[16px] font-bold">+8801323747496</h3>
+              </div>
+            </div>
+            <div class="card bg-base-300 shadow-2xl">
+              <div class="p-10 text-center space-y-2">
+                <div class="flex justify-center text-5xl">
+                  <i class="fa-solid fa-envelope-circle-check"></i>
+                </div>
+                <h2 class="text-2xl font-bold">Email</h2>
+                <h3 class="text-[16px] font-bold">mosaddek305@gmail.com</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact form section -->
+      <section>
+        <div
+          class="flex items-center mt-10 flex-col md:flex-row-reverse md:h-[600px] rounded-lg"
+        >
+          <form
+            action="#"
+            class="space-y-8 order-2 py-7 md:py-14 px-10 md:w-1/2 w-full rounded-l-lg h-full bg-[#261661]"
+          >
             <div class="flex items-center h-full">
               <div class="w-full">
                 <h2
-                  class="text-[32px] mb-5 text-2xl text-white serif font-normal"
+                  class="text-[32px] mb-5 text-2xl text-white serif font-bold"
                 >
                   Get in touch with me
                 </h2>
                 <div>
                   <label
                     for="name"
-                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    class="block mb-2 text-base font-semibold text-gray-900 dark:text-gray-300"
                     >Name</label
                   >
                   <input
                     type="text"
                     id="name"
-                    class="shadow-sm p-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-primary-500 focus:border-primary-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    class="shadow-sm p-3 bg-gray-50 rounded-lg border border-gray-300 text-gray-900 text-base font-semibold focus:ring-primary-500 focus:border-primary-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                     placeholder="Your Name"
                     required
                   />
@@ -163,13 +376,13 @@
                 <div>
                   <label
                     for="email"
-                    class="block mb-2 mt-4 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    class="block mb-2 mt-4 text-base font-semibold text-gray-900 dark:text-gray-300"
                     >Email</label
                   >
                   <input
                     type="email"
                     id="email"
-                    class="shadow-sm p-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-primary-500 focus:border-primary-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    class="shadow-sm p-3 bg-gray-50 rounded-lg border border-gray-300 text-gray-900 text-base font-semibold primary-500 focus:border-primary-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                     placeholder="Your Email"
                     required
                   />
@@ -177,23 +390,25 @@
                 <div class="sm:col-span-2">
                   <label
                     for="message"
-                    class="block mb-2 mt-4 text-sm font-medium text-gray-900 dark:text-gray-400"
+                    class="block mb-2 mt-4 text-base font-semibold text-white"
                     >Message</label
                   >
                   <textarea
                     id="message"
                     rows="6"
-                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                    class="block p-2.5 w-full text-base font-semibold bg-gray-50 shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                     placeholder="Type your query here....."
                   ></textarea>
                 </div>
-                <button class="py-2 bg-[#2f3ca3ef] px-5 mt-4">
+                <button
+                  class="py-3 text-[18px] bg-[#2f3ca3ef] font-bold rounded-lg px-5 mt-4"
+                >
                   Send my message
                 </button>
               </div>
             </div>
           </form>
-          <div class="md:w-1/2 flex items-center h-full">
+          <div class="md:w-1/2 flex items-center h-full order-1">
             <img
               class="w-full h-full object-cover rounded-r-lg"
               src="https://img.freepik.com/free-photo/negotiating-business-image-businesswomen-handshake-happy-with-work-business-woman-she-is-enjoying-with-her-workmate-handshake-gesturing-people-connection-deal-concept-vintage-effect-style-pictures_1253-1048.jpg?t=st=1709290923~exp=1709294523~hmac=a7ee930f80643628eb69b41649e81bd335bc5e5ccf5b4ea815b13799fbb3b307&w=996"
@@ -208,11 +423,11 @@
       class="footer footer-center p-10 bg-base-200 text-base-content rounded"
     >
       <nav class="grid grid-flow-col gap-4">
-        <a class="link link-hover">Home</a>
-        <a class="link link-hover">About</a>
-        <a class="link link-hover">Services</a>
-        <a class="link link-hover">Projects</a>
-        <a class="link link-hover">Contact</a>
+        <a class="link link-hover text-base font-semibold">Home</a>
+        <a class="link link-hover text-base font-semibold">About</a>
+        <a class="link link-hover text-base font-semibold">Services</a>
+        <a class="link link-hover text-base font-semibold">Projects</a>
+        <a class="link link-hover text-base font-semibold">Contact</a>
       </nav>
       <nav>
         <div class="grid grid-flow-col gap-4">
@@ -258,7 +473,9 @@
         </div>
       </nav>
       <aside>
-        <p>Copyright &copy; 2024 - All right reserved by M.M.H.S. Ltd</p>
+        <p class="text-base font-semibold">
+          Copyright &copy; 2024 - All right reserved by M.M.H.S. Ltd
+        </p>
       </aside>
     </footer>
   </body>
