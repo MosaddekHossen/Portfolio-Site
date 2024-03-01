@@ -1,25 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="synthwave">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <!-- Style css -->
+    <!-- Style CSS -->
     <link rel="stylesheet" href="./style.css" />
+    <!-- Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <!-- Header part -->
-    <header>
-      <h1 class="re">Header</h1>
+    <!-- Header Part -->
+    <header class="xl:pt-5">
+      <div
+        class="navbar flex justify-between lg:flex-row flex-row-reverse max-w-screen-xl mx-auto"
+      >
+        <a href="./index.html" class="text-2xl font-bold pr-5">Mosaddek</a>
+        <div>
+          <div class="dropdown">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost pr-1 lg:hidden"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] space-y-2 p-2 shadow rounded-box w-52"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] bg-[#3e6bcd] font-medium text-white"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./about.html"
+                  class="text-[18px] font-medium text-white"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-[18px] font-medium text-white"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-[18px] font-medium text-white"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./about.html"
+                  class="text-[18px] font-medium text-white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 flex items-center">
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] bg-[#21B573] font-medium text-white"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./about.html"
+                  class="text-[18px] font-medium text-white"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-[18px] font-medium text-white"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-[18px] font-medium text-white"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./about.html"
+                  class="text-[18px] font-medium py-3 px-5 text-white rounded-full"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
-    <!-- Main part -->
-    <main>
-      <h2>Main</h2>
-    </main>
-    <!-- Footer part -->
-    <footer>
-      <h3>Footer</h3>
-    </footer>
-    <!-- JavaScript Part -->
+    <!-- Main Part -->
+    <main class="max-w-screen-xl mx-auto px-2">Main</main>
+    <!-- Footer Part -->
+    <footer>Footer</footer>
   </body>
 </html>
