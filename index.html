@@ -133,57 +133,78 @@
     <!-- Main Part -->
     <main class="max-w-screen-xl mb-14 mx-auto px-2">
       <!-- Banner Section -->
-      <section class="flex justify-between">
-        <div class="lg:w-1/2 z-10 bg-[#261661]">
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-            consequuntur molestiae laudantium recusandae hic explicabo ipsam
-            nihil reiciendis cupiditate! Odio molestiae fugiat excepturi
-            voluptatem accusamus accusantium praesentium fuga! Ut iure, illum
-            excepturi tenetur minus harum architecto facilis eum fugit
-            dignissimos impedit! Minima tempora ex labore similique quod aut
-            earum distinctio rerum adipisci laboriosam omnis magni cum non vel
-            saepe vero, quibusdam sint repellendus commodi aliquid. Officia at
-            amet quisquam eos delectus maiores mollitia nostrum, obcaecati alias
-            ratione animi sit, ullam quidem maxime doloribus dolores veniam.
-            Atque sapiente a deleniti laboriosam minima harum dolorem, nihil
-            minus asperiores dolores provident amet? Nostrum, quisquam vel
-            voluptate esse inventore quae aperiam, deserunt laboriosam accusamus
-            quaerat eum sequi fugit architecto voluptates atque aliquid
-            consequatur pariatur. Fugit illo beatae, provident officia fuga vero
-            veritatis id distinctio.
-          </h2>
+      <section class="lg:flex justify-center mt-16">
+        <div class="lg:w-1/2 w-full z-10 bg-[#1a103d]">
+          <h3 class="text-2xl font-bold">HELLO, MY NAME IS</h3>
+          <h1 class="text-5xl font-bold pt-3 pb-5">Mosaddek Hossen</h1>
+          <h3 class="text-[16px] font-bold text-[#5c92f5]">
+            I AM Web Developer
+          </h3>
+          <p class="pb-6 lg:pr-10">
+            From Rajshahi, Bangladesh. I`m a Front End Web developer who is
+            passionate about making error-free websites. I am good at React. I
+            love to talk with you about your project.
+          </p>
+          <div class="md:flex gap-3">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1VIV-y-ptqVfA2rGNsQFSwST5__XPJRaH"
+            >
+              <button
+                class="px-10 py-3 flex items-center rounded-full bg-[#4785f9] text-[20px] font-bold hover:bg-[#2d3434]"
+              >
+                <BiSolidDownload /><span class="md:ml-1 ml-0 text-[16px]"
+                  >Download Resume</span
+                >
+              </button>
+            </a>
+            <button
+              class="px-10 mt-3 md:mt-0 py-3 flex items-center rounded-full bg-[#4785f9] text-[18px] font-bold hover:bg-[#2d3434]"
+            >
+              <FaPhoneAlt /><span class="ml-1 text-[16px]">Contact</span>
+            </button>
+          </div>
         </div>
-        <div class="lg:w-1/2">
+        <div class="lg:w-1/2 hidden lg:block w-full mt-5">
+          <div class="text-center">
+            <h2 class="md:text-5xl text-3xl mb-12 mt-3 font-bold">My Skills</h2>
+          </div>
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <img
-                  class="w-full"
-                  src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                  class="image w-56 xl:h-48 h-40 object-cover"
+                  src="./image/html.png"
+                  alt="Slide 1"
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  class="w-full"
-                  src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                  class="image w-56 xl:h-48 h-40 object-cover"
+                  src="./image/css.png"
+                  alt="Slide 1"
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  class="w-full"
-                  src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                  class="image w-56 xl:h-48 h-40 object-cover"
+                  src="./image/tailwinddownload.jpeg"
+                  alt="Slide 1"
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  class="w-full"
-                  src="https://i.ibb.co/kx013d1/Screenshot-2.png"
+                  class="image w-56 xl:h-48 h-40 object-cover"
+                  src="./image/jsdownload.png"
+                  alt="Slide 1"
                 />
-              </div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+              <div class="swiper-slide">
+                <img
+                  class="image w-56 xl:h-48 h-40 object-cover"
+                  src="./image/reactdownload.jpeg"
+                  alt="Slide 1"
+                />
+            </div>              
           </div>
         </div>
       </section>
@@ -410,7 +431,7 @@
         >
           <form
             action="#"
-            class="space-y-8 order-2 py-7 md:py-14 px-10 md:w-1/2 w-full rounded-l-lg h-full bg-[#261661]"
+            class="space-y-8 order-2 py-7 md:py-14 px-10 md:w-1/2 rounded-l-lg h-full bg-[#261661]"
           >
             <div class="flex items-center h-full">
               <div class="w-full">
@@ -538,6 +559,7 @@
         </p>
       </aside>
     </footer>
+    <!-- Javascript part -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>
   </body>
