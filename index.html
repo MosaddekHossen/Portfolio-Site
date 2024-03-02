@@ -57,35 +57,35 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] space-y-2 p-2 shadow rounded-box w-52"
+              class="menu menu-sm dropdown-content mt-3 z-[1] space-y-2 p-2 bg-[#1a103d] shadow rounded-box w-52"
             >
               <li>
                 <a
-                  href="#"
+                  href="./index.html"
                   class="text-[18px] bg-[#3e6bcd] w-[150px] font-medium text-white"
                   >Home</a
                 >
               </li>
               <li>
                 <a
-                  href="./about.html"
+                  href="#about"
                   class="text-[18px] font-medium text-white w-[150px]"
                   >About</a
                 >
               </li>
               <li>
-                <a href="#" class="text-[18px] font-medium text-white w-[150px]"
-                  >Services</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-[18px] font-medium text-white w-[150px]"
+                <a href="#services" class="text-[18px] font-medium text-white w-[150px]"
                   >Projects</a
                 >
               </li>
               <li>
+                <a href="#education" class="text-[18px] font-medium text-white w-[150px]"
+                  >Education</a
+                >
+              </li>
+              <li>
                 <a
-                  href="./about.html"
+                  href="#contact"
                   class="text-[18px] font-medium text-white w-[150px]"
                   >Contact</a
                 >
@@ -96,32 +96,30 @@
             <ul class="menu menu-horizontal px-1 flex items-center">
               <li>
                 <a
-                  href="#"
+                  href="./index.html"
                   class="text-[18px] bg-[#21B573] font-medium text-white"
                   >Home</a
                 >
               </li>
               <li>
                 <a
-                  href="./about.html"
+                  href="#about"
                   class="text-[18px] font-medium text-white"
                   >About</a
                 >
               </li>
               <li>
-                <a href="#" class="text-[18px] font-medium text-white"
-                  >Services</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-[18px] font-medium text-white"
+                <a href="#services" class="text-[18px] font-medium text-white"
                   >Projects</a
                 >
               </li>
               <li>
-                <a
-                  href="./about.html"
-                  class="text-[18px] font-medium py-3 px-5 text-white rounded-full"
+                <a href="#education" class="text-[18px] font-medium text-white"
+                  >Education</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="text-[18px] font-medium text-white"
                   >Contact</a
                 >
               </li>
@@ -133,7 +131,7 @@
     <!-- Main Part -->
     <main class="max-w-screen-xl mb-14 mx-auto px-2">
       <!-- Banner Section -->
-      <section class="lg:flex justify-center mt-16">
+      <section id="about" class="lg:flex justify-center mt-16">
         <div class="lg:w-1/2 w-full z-10 bg-[#1a103d]">
           <h3 class="text-2xl font-bold">HELLO, MY NAME IS</h3>
           <h1 class="text-5xl font-bold pt-3 pb-5">Mosaddek Hossen</h1>
@@ -157,11 +155,10 @@
                 >
               </button>
             </a>
-            <button
-              class="px-10 mt-3 md:mt-0 py-3 flex items-center rounded-full bg-[#4785f9] text-[18px] font-bold hover:bg-[#2d3434]"
+            <div class="px-10 mt-3 md:mt-0 py-3 flex items-center rounded-full bg-[#4785f9] text-[18px] font-bold hover:bg-[#2d3434]"
             >
-              <FaPhoneAlt /><span class="ml-1 text-[16px]">Contact</span>
-            </button>
+              <FaPhoneAlt /><a href="#contact" class="ml-1 text-[16px]">Contact</a>
+            </div>
           </div>
         </div>
         <div class="lg:w-1/2 hidden lg:block w-full mt-5">
@@ -183,33 +180,26 @@
                   src="./image/css.png"
                   alt="Slide 1"
                 />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  class="image w-56 xl:h-48 h-40 object-cover"
-                  src="./image/tailwinddownload.jpeg"
-                  alt="Slide 1"
-                />
-              </div>
+              </div>              
               <div class="swiper-slide">
                 <img
                   class="image w-56 xl:h-48 h-40 object-cover"
                   src="./image/jsdownload.png"
                   alt="Slide 1"
                 />
-            </div>
+            </div> 
               <div class="swiper-slide">
                 <img
                   class="image w-56 xl:h-48 h-40 object-cover"
-                  src="./image/reactdownload.jpeg"
+                  src="./image/tailwinddownload.jpeg"
                   alt="Slide 1"
                 />
-            </div>              
+              </div>            
           </div>
         </div>
       </section>
       <!-- Projects -->
-      <section class="my-14">
+      <section id="services" class="my-14">
         <div class="text-center">
           <h2 class="md:text-5xl text-3xl mb-12 mt-3 font-bold">My Projects</h2>
         </div>
@@ -339,7 +329,7 @@
         </div>
       </section>
       <!-- About section -->
-      <section class="lg:mb-20 mb-10">
+      <section id="education" class="lg:mb-20 mb-10">
         <div class="text-center">
           <h2 class="md:text-5xl text-3xl mb-10 mt-2 font-bold">Education</h2>
         </div>
@@ -384,7 +374,7 @@
         </div>
       </section>
       <!-- Contact section -->
-      <section>
+      <section id="contact">
         <div class="mb-16">
           <div class="text-center">
             <h2 class="md:text-5xl text-3xl mb-12 mt-16 font-bold uppercase">
@@ -504,11 +494,11 @@
       class="footer footer-center p-10 bg-base-200 text-base-content rounded"
     >
       <nav class="grid grid-flow-col gap-4">
-        <a class="link link-hover text-base font-semibold">Home</a>
-        <a class="link link-hover text-base font-semibold">About</a>
-        <a class="link link-hover text-base font-semibold">Services</a>
-        <a class="link link-hover text-base font-semibold">Projects</a>
-        <a class="link link-hover text-base font-semibold">Contact</a>
+        <a href="./index.html" class="link link-hover text-base font-semibold">Home</a>
+        <a href="#about" class="link link-hover text-base font-semibold">About</a>
+        <a href="#services" class="link link-hover text-base font-semibold">Projects</a>
+        <a href="#education" class="link link-hover text-base font-semibold">Education</a>
+        <a href="#contact" class="link link-hover text-base font-semibold">Contact</a>
       </nav>
       <nav>
         <div class="grid grid-flow-col gap-4">
